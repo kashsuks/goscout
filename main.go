@@ -12,6 +12,7 @@ func main() {
 
 	flag.Parse()
 	
+	//print out the team number => for future this will be checking if the team actually exists
 	if *teamNumber == 0 {
 		fmt.Println("Pick a real team number")
 	} else {
